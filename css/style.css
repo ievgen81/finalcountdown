@@ -1,0 +1,103 @@
+.wrapper{
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+}
+header{
+    height: 600px;
+    background-image:radial-gradient(#fff,#000);
+}
+.logo-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.center-header{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    height: 600px;
+
+    
+}
+.text-header{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translateY(-50%);
+    width: 30%;
+    
+
+}
+.text-header h1{font-size: 25px;
+    color:#fff;
+    margin-bottom: 20px;
+
+
+}
+.text-header p{
+    color: #fff;
+}
+.logo-nav a:first-of-type{
+    text-transform: uppercase;
+    text-decoration:none;
+    color:#ccc ;
+    margin-top: 30px;
+
+}
+.logo-nav .menu li{
+    float: left;
+    margin-left:30px ;
+
+}
+.logo-nav .menu li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-top: 20px;
+    display: block;
+
+}
+.text-header a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    display: inline-block;
+    text-transform: capitalize;
+    margin-top: 15px;
+
+}
+.laptop{
+    background-color:#ccc;
+    height: 200px;
+
+}
+.laptop-center{
+    max-width: 1200px;
+    width: 100%;
+    margin:0 auto;
+    display: flex;
+    flex-direction: row;
+
+}
+.laptop-text{
+    width: 30%;
+    
+}
+.laptop-text h2{
+    text-transform: capitalize; color #000;font-size: 20px;
+
+}
+.laptop-img{
+    position: relative;
+    width: 70%;
+
+}
+.laptop-img img{
+    position: absolute;
+    left: 0;
+    top:0;
+    transform: translateY(-50%);
+}
